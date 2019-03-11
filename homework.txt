@@ -1,0 +1,34 @@
+2016302580176 ÌÆÕñöª
+P1. F T F F F
+
+P3.
+  a.HTTP client initiates TCP connection to HTTP server at http://yourbussiness.com/about html
+    HTTP server at host waiting for TCP connection.  "accepts" connection, notifying client
+  b.HTTP, TCP
+
+P4. 
+  a. gaia.cs.umass.edu/cs453/index.html
+  b. version of HTTP is 1.1
+  c. persistent connection
+  d. 
+  e.  Mozilla/5.0 This header line is useful because the server can actually send different versions of the same object to different types of user agents.
+
+P5.
+  a. yes. Tue, 07 Mar 2008 13:39:45GMT
+  b. Sat, 10 Dec2005 18:27:46GMT
+  c. 3874bytes
+  d. <!doc    it is a persistent connection
+
+P6.
+  a. 	client intends to maintain a persistent connection unless a connection header including hte connection-token "close" was sent in the request.
+	Persistent connections provide a mechanism by which a client and a server can signal the close of a TCP connection. 
+	https://tools.ietf.org/html/rfc2616#section-8.1.2
+  b. Http doesn't have encryption services
+  c. No, at most 2 be provided.
+  d. Yes
+     A client, server, or proxy MAY close the transport connection at any
+   time. For example, a client might have started to send a new request
+   at the same time that the server has decided to close the "idle"
+   connection. From the server's point of view, the connection is being
+   closed while it was idle, but from the client's point of view, a
+   request is in progress.(https://tools.ietf.org/html/rfc2616#section-8.1.4)
